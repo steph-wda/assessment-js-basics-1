@@ -8,8 +8,7 @@
     Create a variable called 'gitDefinition'.
     It should be a string containing your best definition of what Git is.
 */
-
-//CODE HERE
+const gitDefinition = ""
 
 //////////////////PROBLEM 2////////////////////
 /*
