@@ -8,7 +8,7 @@
     Create a variable called 'gitDefinition'.
     It should be a string containing your best definition of what Git is.
 */
-const gitDefinition = ""
+const gitDefinition = "Git is a version control system used by developers that helps them track different versions of their code.";
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -16,7 +16,7 @@ const gitDefinition = ""
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+const gitHubDefinition = "GitHub ia a website and cloud-based service that helps developers store and manage their code, as well as track and control changes to their code.";
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -24,7 +24,7 @@ const gitDefinition = ""
     It should be a string containing your best definition of what 'git init' does.
 */
 
-//CODE HERE
+const gitInitDefinition = "Creates  an empty Git repository or reinitializes an existing one.";
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -32,7 +32,7 @@ const gitDefinition = ""
     It should be a string containing your best definition of what 'git clone' does.
 */
 
-//CODE HERE
+const gitCloneDefinition = "Creates a copy of an existing repository into a new directory.";
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -40,7 +40,7 @@ const gitDefinition = ""
     It should be a string containing your best definition of what 'git status' does.
 */
 
-//CODE HERE
+const gitStatusDefinition = "Shows the state of the working directory and the staging area.";
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -51,7 +51,9 @@ const gitDefinition = ""
     It should be a string containing the code to add all files.
 */
 
-//CODE HERE
+const gitAddDefinition = "Adds new or changed files in your working directory to the Git staging area";
+
+const gitAddCode = "git add .";
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -62,8 +64,9 @@ const gitDefinition = ""
     It should be a string containing the code to commit using the message "initial commit".
 */
 
-//CODE HERE
+const gitCommitDefinition = "Records changes to a repository.";
 
+const gitCommitCode = "git commit -m 'initial commit'";
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -71,4 +74,4 @@ const gitDefinition = ""
     It should be a string containing your best definition of what 'git push' does.
 */
 
-//CODE HERE
+const gitPushDefinition = "Uploads local repository content to a remote repository.";
